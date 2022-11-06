@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/works.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <!-- <a href="#">Logo </a> -->
+        <div>
+            <a href="#home"><i title="Home" class="fas fa-home-lg-alt"></i></a>
+            <a href="#about"><i title="About" class="fas fa-address-card"></i> </a>
+            <a href="#works"><i title="Works" class="fas fa-briefcase"></i></a>
+            <a href="#contact"><i title="Contact" class="fas fa-wifi"></i></a>
+        </div>
+        <!-- <a href="#">Policy</a> -->
+    </nav>
+
+    <a href="#home" class="goToTop"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Main -->
+    <main>
+        <!--------------- Home page --------------->
+        <div class="home" id="home">
+            <span>Gug</span>
+            <img src="./img/GB.png" class="img">
+            <div class="cont">
+                <h1>I'm <br> Gug Barseghyan</h1>
+                <p>Graphic Designer <br> WEB Developer <br> Artist</p>
+            </div>
+            <a class="showAbout" href="#about">Swipe Down <br> <i class="fas fa-arrow-down"></i></a>
+        </div>
+        
+        <!--------------- About page --------------->
+        <div class="about" id="about">
+            <h1>About</h1>
+            <div>
+                <div class="img">
+                    <img src="./img/GB.png">
+                </div>
+                <div class="cont">
+                    <p>I have more than 1 year experience in Graphic Design, less than 1 year experience in Web Development, less than 1 year experience in Art. I create my own designs. I create website template, banner images, logos and my own art.sb
+<br><br>
+                        In each of my work, I put my energy, thought, time to get a good result.
+                        <br><br>
+                        I like to listen to a song when I start working, to change my mood and get energy.
+                        <br><br>
+                        When I'm in a bad mood, I start creating new things because that work allows me to change my mood, change my environment and be a good person.
+                        <br><br>
+                        Actually, I never get tired of my work. But sometimes when I work more than 12 hours I get tired. I have to take a break every 2 or 3 hours to stay calm.
+                        <br><br>
+                        Anyway, I love my job and I live by <it class="br"></it>
+                        In this page you can see my works <br>
+                        Thanks :D </p>
+                </div>
+            </div>
+        </div>
+
+        <!--------------- Works  page --------------->
+        <div class="works" id="works">
+            <h1>Works</h1>
+            <div class="menu">
+                <button id="webD" class="active">UI&UX design</button>
+                <button id="logoD">Logo design</button>
+                <button id="graphicD">Graphic Design</button>
+                <button  id="arts">Arts</button>
+            </div>
+            <div class="container containerShadow">
+                
+            </div>
+            <button class="show" onclick="showWeb()">Show More...</button>
+        </div>
+
+        <!--------------- Contact  page --------------->
+        <div class="contact" id="contact">
+            <h1>Contact</h1>
+            <div>
+                <form action="" method="POST">
+                    <label>Your message</label>
+                    <input type="text" name="FullName" placeholder="Full name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <input type="text" name="Subject" placeholder="Subject" required>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+        <footer>
+            <h1>Gug Barseghyan</h1>
+            <div class="social">
+                <a href="https://www.facebook.com/gugbarseghian"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/gugbarseghyan"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:gugbarseghyantlp@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://t.me/gugbarseghyan"><i class="fab fa-telegram"></i></a>
+            </div>
+        </footer>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

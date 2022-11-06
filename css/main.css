@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow-x: hidden;
+    background: url("../img/bg\ light\ 2.png");
+    transition: 0.4s;
+}
+nav{
+    z-index: 1000;
+    max-width: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8888;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top:0;
+    left:0;
+    padding: 10px
+}
+nav div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+nav div span{
+    width: 200px;
+    display: none;
+    margin: 0 0 0 10px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #222;
+    margin: 10px 5px;
+    transition: 0.4s;
+}
+nav a:hover{
+    color: #F7DC2C;
+}
+main{
+    width: 100%;
+    transition: background 1s ease;
+}
+.goToTop{
+    position:fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #222a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: yellow;
+    font-size: 20px;
+    right: 20px;
+    bottom: 20px;
+    opacity: 0;
+    transition: 0.4s;
+    z-index: 1000;
+}
+.goToTopShow{
+    opacity: 1;
+}

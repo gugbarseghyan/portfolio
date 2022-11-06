@@ -1,0 +1,76 @@
+.contact{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+    background-color: #222;
+    color: #F7DC2C;
+    font-family: "Century Gothic";
+    background: url("../img/bg.png");
+}
+footer{
+    height: 15vh;
+    background-color: #F7DC2C;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #222
+}
+::placeholder{
+    color:#F7DC2C88
+}
+.contact form{
+    width: 500px;
+    background-color: #F7DC2C;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+.contact form input, .contact form textarea{
+    font-family: "Century Gothic";
+    border-radius: 20px;
+    font-size: 22px;
+    padding: 7px 20px;
+    border: 2px solid #222;
+    margin: 5px;
+    max-width: 100%;
+    background-color: #2225;
+    transition: 0.4s;
+}
+.contact form label{
+    color: #222;
+    margin: 15px;
+    font-size: 30px;
+}
+.contact form input[type=submit]:hover{
+    cursor: pointer;
+    background-color: #F7DC2C;
+    color:#222
+}
+.social{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
+}
+.social a{
+    font-size: 40px;
+    text-decoration: none;
+    color: #222;
+    margin: 10px;
+    transition: 0.4s;
+}
+.social a:hover{
+    color: #C7AC0C
+}
+@media only screen and (max-width: 500px) {
+    footer{
+        flex-direction: column;
+    }
+}
