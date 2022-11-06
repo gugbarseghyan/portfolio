@@ -19,6 +19,9 @@ footer{
     align-items: center;
     color: #222
 }
+footer h1{
+    font-size: 20px
+}
 ::placeholder{
     color:#F7DC2C88
 }
@@ -60,7 +63,7 @@ footer{
     padding: 20px;
 }
 .social a{
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     color: #222;
     margin: 10px;
