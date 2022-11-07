@@ -81,19 +81,19 @@ function logoDesignFun(){
     let lengthLet = lengthLe - logoDesign.length/3
 
     for(let i = 0; i < lengthLet; i++){
-        html+= `<a target="_blank" href="./img/logo Design/${logoDesign[i]}"><img src="./img/logo Design/${logoDesign[i]}"></a>`
+        html+= `<a target="_blank" href="./img/logo design/${logoDesign[i]}"><img src="./img/logo Design/${logoDesign[i]}"></a>`
     }
 
     html+='</div><div class="section sectionLogo">'
 
     for(let i = Math.round(lengthLet); i < lengthLet+lengthLet; i++){
-        html+= `<a target="_blank" href="./img/logo Design/${logoDesign[i]}"><img src="./img/logo Design/${logoDesign[i]}"></a>`
+        html+= `<a target="_blank" href="./img/logo design/${logoDesign[i]}"><img src="./img/logo Design/${logoDesign[i]}"></a>`
     }
 
     html+='</div><div class="section sectionLogo">'
 
     for(let i = Math.round(lengthLet+lengthLet); i < logoDesign.length; i++){
-        html+= `<a target="_blank" href="./img/logo Design/${logoDesign[i]}"><img src="./img/logo Design/${logoDesign[i]}"></a>`
+        html+= `<a target="_blank" href="./img/logo design/${logoDesign[i]}"><img src="./img/logo Design/${logoDesign[i]}"></a>`
     }
 
     html+='</div>';
@@ -108,13 +108,13 @@ function graphicDesignFun(){
     let lengthLet = graphicDesign.length - graphicDesign.length/2;
 
     for(let i = 0; i < lengthLet; i++){
-        html+= `<a target="_blank" href="./img/graphic Design/${graphicDesign[i]}"><img src="./img/graphic Design/${graphicDesign[i]}"></a>`
+        html+= `<a target="_blank" href="./img/Graphic design/${graphicDesign[i]}"><img src="./img/graphic Design/${graphicDesign[i]}"></a>`
     }
 
     html+='</div><div class="section sectionGraphic">'
 
     for(let i = Math.round(lengthLet); i < graphicDesign.length; i++){
-        html+= `<a target="_blank" href="./img/graphic Design/${graphicDesign[i]}"><img src="./img/graphic Design/${graphicDesign[i]}"></a>`
+        html+= `<a target="_blank" href="./img/Graphic design/${graphicDesign[i]}"><img src="./img/graphic Design/${graphicDesign[i]}"></a>`
     }
 
     html+='</div>';
