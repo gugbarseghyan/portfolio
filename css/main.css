@@ -5,7 +5,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: "Century Gothic";
+    
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -73,4 +73,5 @@ main{
 }
 .goToTopShow{
     opacity: 1;
+
 }
