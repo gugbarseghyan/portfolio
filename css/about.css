@@ -6,7 +6,6 @@
     align-items: center;
     background-color: #222;
     color: #F7DC2C;
-    font-family: "Century Gothic";
     background: url("../img/bg.png");
 }
 .about div .img img{
@@ -48,3 +47,4 @@
         font-size: 17px;
     }
 }
+
