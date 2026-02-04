@@ -105,6 +105,9 @@
     flex-wrap: wrap;
     width: 80%;
 }
+.behance iframe{
+    margin: 10px, 10px, 10px, 10px;
+}
 
 @media only screen and (max-width: 1000px){
     .works .menu{
