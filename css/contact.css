@@ -35,7 +35,6 @@ footer h1{
     text-align: center;
 }
 .contact form input, .contact form textarea{
-    font-family: "Century Gothic";
     border-radius: 20px;
     font-size: 22px;
     padding: 7px 20px;
@@ -76,4 +75,5 @@ footer h1{
         flex-direction: column;
     }
 }
+
 
