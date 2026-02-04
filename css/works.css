@@ -6,7 +6,6 @@
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    font-family: "Century Gothic";
     /* background: url("../img/bg\ light\ 2.png"); */
     padding: 50px 0;
 }
@@ -24,7 +23,6 @@
 }
 .works .menu button{
     cursor: pointer;
-    font-family: "Century Gothic";
     background-color: transparent;
     border:none;
     font-size: 20px;
@@ -108,4 +106,5 @@
     .works .menu button{
         width: 100%;
     }
+
 }
