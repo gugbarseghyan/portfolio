@@ -97,6 +97,13 @@
     background-color: #222;
     color: #F7DC2C
 }
+.behance{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
 
 @media only screen and (max-width: 1000px){
     .works .menu{
